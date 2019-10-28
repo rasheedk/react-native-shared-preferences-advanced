@@ -43,7 +43,7 @@ public class SharedDataProvider {
     public static String getSharedValue(String key) {
         return SharedHandler.getInstance().getString(key);
     }
-	  public static String getSharedBooleanValue(String key) {
+	  public static Boolean getSharedBooleanValue(String key) {
         return SharedHandler.getInstance().getBoolean(key);
     }
 	public static void putSharedBooleanValue(String key, boolean value) {

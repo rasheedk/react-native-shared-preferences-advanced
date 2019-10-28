@@ -1,6 +1,6 @@
 {
   "name": "react-native-shared-preferences-advanced",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "Android's Native key value storage system in React Native",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
     "react-component",
     "react-native"
   ],
-  "author": "Sriraman",
-  "license": "ISC",
+  "author": "Rasheed",
+  "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/rasheedk/react-native-shared-preferences-advanced/issues"
   },

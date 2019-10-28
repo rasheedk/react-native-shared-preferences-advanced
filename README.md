@@ -40,7 +40,7 @@ dependencies {
 * Register Module (in MainApplication.java)
 
 ```java
-import in.sriraman.sharedpreferences.RNSharedPreferencesReactPackage;  // <--- import
+import in.advanced.sharedpreferences.RNSharedPreferencesReactPackage;  // <--- import
 
 public class MainActivity extends ReactActivity {
   ......
@@ -79,12 +79,21 @@ SharedPreferences.setName("name");
 SharedPreferences.setItem("key","value");
 ```
 
+```javascript
+SharedPreferences.setBoolean("key",true);
+           
+```
+
 #### Get an value
 
 ```javascript
 SharedPreferences.getItem("key", function(value){
   console.log(value);
 });
+
+ SharedPreferences.getBoolean("key", function(value){
+              console.log(value);
+            });
 ```
 
 #### Get multiple items

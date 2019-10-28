@@ -24,7 +24,7 @@ public class SharedHandler {
             sSharedHandler = new SharedHandler(context, name);
         }
     }
-    getBoolean
+   
     public void putExtra(String key, Object value) {
         SharedPreferences.Editor editor = mSharedPreferences.edit();
         if (value instanceof String) {
