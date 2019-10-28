@@ -1,0 +1,28 @@
+{
+  "name": "react-native-shared-preferences-advanced",
+  "version": "0.0.1",
+  "description": "Android's Native key value storage system in React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rasheedk/react-native-shared-preferences-advanced.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Shared",
+    "Preference",
+    "Android",
+    "react-component",
+    "react-native"
+  ],
+  "author": "Sriraman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasheedk/react-native-shared-preferences-advanced/issues"
+  },
+  "homepage": "https://github.com/rasheed/react-native-shared-preferences-advanced#readme"
+}
