@@ -29,25 +29,6 @@ public class SharedDataProvider {
         return results;
     }
 		
-		/*public static String[] getMultiSharedValues(String[] keys) {
-        SharedHandler sharedHandler = SharedHandler.getInstance();
-        String[] results = new String[keys.length];
-        for (int i = 0; i < keys.length; i++) {
-            results[i] = sharedHandler.getString(keys[i]);
-        }
-        return results;
-    }
-
-    public static String[][] getMultiSharedValues(String[] keys) {
-        SharedHandler sharedHandler = SharedHandler.getInstance();
-        String[][] results = new String[keys.length][2];
-        for (int i = 0; i < keys.length; i++) {
-            results[i][0] = keys[i];
-            results[i][1] = String.valueOf(sharedHandler.getString(keys[i]));
-        }
-        return results;
-    }
-    */
 
     public static String[] getAllKeys() {
         Map<String, ?> keyValues = SharedHandler.getInstance().getAllSharedData();
@@ -63,7 +44,7 @@ public class SharedDataProvider {
         return SharedHandler.getInstance().getString(key);
     }
 	  public static String getSharedBooleanValue(String key) {
-        return SharedHandler.getInstance().getBoolean(key,false);
+        return SharedHandler.getInstance().getBoolean(key);
     }
 	public static void putSharedBooleanValue(String key, boolean value) {
         SharedHandler.getInstance().putExtra(key, value);
